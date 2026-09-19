@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fact-001",
+    "category": "factual_accuracy",
+    "prompt": "What is the capital of Australia, and is it the country's largest city?",
+    "candidate_response": "Sydney is the capital of Australia and also its largest city.",
+    "label": "incorrect",
+    "reason": "Sydney is not the capital of Australia; Canberra is."
+  },
+  {
+    "id": "instruction-001",
+    "category": "instruction_following",
+    "prompt": "Explain what an API is in exactly three sentences. Do not use technical jargon.",
+    "candidate_response": "An API lets two programs communicate. Developers often use REST endpoints and HTTP methods. It helps services connect. APIs are common in modern software.",
+    "label": "does_not_follow",
+    "reason": "The response uses technical jargon and contains four sentences instead of exactly three."
+  },
+  {
+    "id": "locale-001",
+    "category": "spanish_mx",
+    "prompt": "Escribe un mensaje breve para avisar que un pedido está listo para recoger.",
+    "candidate_response": "Puedes pasar a por tu pedido cuando gustes.",
+    "label": "acceptable_but_less_natural",
+    "reason": "The sentence is understandable, but 'pasar por tu pedido' or 'pasar a recogerlo' is more natural in Mexican Spanish."
+  }
+]
